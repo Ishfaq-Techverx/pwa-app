@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Add to your CSS file (e.g., App.css or WebcamCapture.css) */
+
+.webcam-capture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#capturedImage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.captured-image {
+  position: relative;
+  display: inline-block;
+}
+
+.captured-image img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+  .webcam-capture {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .captured-image img {
+    max-width: 80px;
+    height: 80px;
+  }
+}
+
+/* Add to your CSS file (e.g., App.css or WebcamCapture.css) */
+
+.webcam-capture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#capturedImage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.captured-image {
+  position: relative;
+  display: inline-block;
+}
+
+.captured-image img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+  .webcam-capture {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .captured-image img {
+    max-width: 80px;
+    height: 80px;
+  }
+}
