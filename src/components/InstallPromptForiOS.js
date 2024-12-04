@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 const InstallPromptForiOS = () => {
   const [isIos, setIsIos] = useState(false);
   const [isStandalone, setIsStandalone] = useState(false);
