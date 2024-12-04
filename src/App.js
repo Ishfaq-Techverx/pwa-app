@@ -41,6 +41,7 @@
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
 import Installer from "./components/Installer";
+import InstallPromptForiOS from "./components/InstallPromptForiOS";
 
 const WebcamCapture = () => {
   const [isCameraOpen, setIsCameraOpen] = useState(false);
