@@ -73,6 +73,7 @@ const WebcamCapture = () => {
         <button onClick={handleCloseCamera}>Close Camera</button>
       </div>
       <Installer />
+      <InstallPromptForiOS />
       {isCameraOpen && (
         <div>
           <Webcam
