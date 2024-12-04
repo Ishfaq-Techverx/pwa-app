@@ -1,16 +1,21 @@
 {
-  "short_name": "Webcam Capture",
-  "name": "Webcam Capture App",
+  "short_name": "Plant Babies",
+  "name": "Plant Babies App",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://www.picturethisai.com/image-handle/website_cmsname/static/name/55a7d8b302c84b3609bbdcbd400734aa/img/home/img/group-642391669.png?x-oss-process=image/format,webp/resize,s_192",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/webp"
     },
     {
-      "src": "favicon.ico",
+      "src": "https://www.picturethisai.com/image-handle/website_cmsname/static/name/55a7d8b302c84b3609bbdcbd400734aa/img/home/img/group-642391669.png?x-oss-process=image/format,webp/resize,s_256",
       "sizes": "256x256",
-      "type": "image/png"
+      "type": "image/webp"
+    },
+    {
+      "src": "https://www.picturethisai.com/image-handle/website_cmsname/static/name/55a7d8b302c84b3609bbdcbd400734aa/img/home/img/group-642391669.png?x-oss-process=image/format,webp/resize,s_512",
+      "sizes": "512x512",
+      "type": "image/webp"
     }
   ],
   "start_url": ".",

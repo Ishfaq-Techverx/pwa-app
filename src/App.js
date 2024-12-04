@@ -40,6 +40,7 @@
 
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
+import Installer from "./components/Installer";
 
 const WebcamCapture = () => {
   const [isCameraOpen, setIsCameraOpen] = useState(false);
@@ -71,6 +72,7 @@ const WebcamCapture = () => {
         <button onClick={handleOpenCamera}>Open Camera</button>
         <button onClick={handleCloseCamera}>Close Camera</button>
       </div>
+      <Installer />
       {isCameraOpen && (
         <div>
           <Webcam
